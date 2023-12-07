@@ -17,7 +17,6 @@ body {
   font-style: normal;
   color: rgb(var(--foreground-rgb)); 
   background-color: var(--background-white);
-  overflow-x: hidden;
 }
 
 .ivypresto-display {

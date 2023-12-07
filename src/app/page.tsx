@@ -15,6 +15,7 @@ export default function Home() {
         <div className={styles['hero-image-wrapper']}>
           <Image alt="image group" className={styles['hero-image-1']} src="/img-group.png" width={724} height={577} />
         </div>
+        <div className={styles['vector-wrapper']}></div>
       </div>
       <section className="p-10">
         <h2 className="ivypresto-display text-6xl my-8 mx-4">Knowing the numbers is never <em>enough</em>.</h2>
