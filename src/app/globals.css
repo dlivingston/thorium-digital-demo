@@ -2,26 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://use.typekit.net/zfq8yxj.css"); /* Adobe Typekit Fonts - including: Ivy Presto & Niveau Grotesk */
+
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --background-white: #F4F2EB;
+  --hero-red: #CB0007;
+  --mustard: #D7B344;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "niveau-grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(var(--foreground-rgb)); 
+  background-color: var(--background-white);
+  overflow-x: hidden;
+}
+
+.ivypresto-display {
+  font-family: "ivypresto-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

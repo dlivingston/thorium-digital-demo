@@ -1,0 +1,74 @@
+.hero {
+  background-color: var(--hero-red);
+  background-image: url('/texture-1.png');
+  background-size: cover;
+  color: white;
+  position: relative;
+  width: 100%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hero h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  text-align: left;
+  max-width: 585px;
+  line-height: 1.1;
+  margin-bottom: 3rem;
+}
+.hero p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: left;
+  max-width: 585px;
+  line-height: 1.2;
+  max-width: 470px;
+  margin-bottom: 3rem;
+  letter-spacing: 0.025rem;
+}
+.hero-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 585px;
+  z-index: 5;
+}
+.hero-text-wrapper a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mustard);
+  color: black;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-align: center;
+  width: 230px;
+  height: 60px;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.hero-image-wrapper {
+  max-width: 725px;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 280px;
+  height: 280px;
+  background-image: url('/vector-graphic-1.svg');
+  z-index: 0;
+  top: auto;
+  left: auto;
+  bottom: -140px;
+  right: -70px;
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    flex-direction: row;
+  }
+}
