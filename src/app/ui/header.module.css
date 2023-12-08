@@ -155,6 +155,7 @@
     position: relative;
     width: auto;
     transform: none;
+    top: 0;
   }
   .menu-grid.open {
     transform: none;
